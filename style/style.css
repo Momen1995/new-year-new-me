@@ -58,13 +58,12 @@ header{
 /* ====================header end================= */
 
 main{
-    margin-top: 120px;
     background-color: #FFF;
 }
 
 .container{
     width:85%;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 
 .container-sectionone{
@@ -106,3 +105,47 @@ main{
 }
 
 /* ============================plan section===================== */
+.plan-title{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box-design{
+    display: flex;
+    gap:15px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+.box-1{
+    width : 330px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #f0e1e1;
+    box-shadow: 3px 3px 7px  #f0e1e1;
+}
+
+
+.box-title{
+    color:  #151414;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+}
+
+.box-description{
+    color:  #737272;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
