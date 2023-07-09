@@ -62,11 +62,11 @@ main{
 }
 
 .container{
-    width:85%;
+    width:83%;
     margin: 120px auto;
 }
 
-.container-sectionone{
+.container-section-one{
     display: flex;
     align-items: center;
     gap:60px
@@ -78,7 +78,7 @@ main{
 }
 
 .container-section{
-    padding-right: 100px;
+    padding-right: 90px;
 }
 
 .container-title{
@@ -124,7 +124,7 @@ main{
 .box-1{
     width : 330px;
     text-align: center;
-    padding: 25px;
+    padding: 30px;
     border: 1px solid #f0e1e1;
     box-shadow: 3px 3px 7px  #f0e1e1;
 }
@@ -148,4 +148,44 @@ main{
     font-weight: 500;
     line-height: normal;
 }
+
+/* ==========background-section=============== */
+
+.background-img{
+    background-image: url("../images/gradient3.png"),url("../images/watch.png");
+    height: 300px;
+    width: 1120px;
+    background-size: cover;
+}
+
+.background-img h4{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 60px 0 0 60px;
+
+}
+
+.btn{
+    padding:10px 0 0 60px ;
+}
+
+.background-img a{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 8px 25px;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ==========================footer start======================= */
 
