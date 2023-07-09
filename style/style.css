@@ -229,3 +229,35 @@ footer{
     color:white;
     font-size: 18px;
 }
+
+.subscribe h4{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.subscribe input{
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+
+.subscribe a{
+    display: inline-block;
+    color:#f15b22;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border:1px solid #F15B22;
+}
